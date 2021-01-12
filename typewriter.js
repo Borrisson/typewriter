@@ -3,7 +3,7 @@ let x = 50;
 for (const char of sentence) {
   if (sentence.length * 50  === x) { // if we are at the end of our sentence stop the process
     setTimeout(() => {
-      process.stdout.write('\n'); 
+      process.stdout.write(char + '\n'); 
     }, x); 
     continue;
   }
